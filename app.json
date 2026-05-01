@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Expo CRUD",
+    "slug": "expo-crud",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "expocrud",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#f7f4ed"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
