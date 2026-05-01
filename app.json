@@ -11,10 +11,15 @@
       "backgroundColor": "#f7f4ed"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sarvan2187.expocrud",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.sarvan2187.expocrud"
     },
     "web": {
       "bundler": "metro",
@@ -22,6 +27,12 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4cb5395-06bd-4d34-b350-f61494cf448c"
+      }
+    }
   }
 }
